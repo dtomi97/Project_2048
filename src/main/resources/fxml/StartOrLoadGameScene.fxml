@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="200.0" maxWidth="300.0" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StartOrLoadGameSceneController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="slot1" minHeight="50.0" minWidth="200.0" mnemonicParsing="false" onAction="#HandleSaveSlot1" text="New Game" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Button fx:id="slot2" minHeight="50.0" minWidth="200.0" mnemonicParsing="false" onAction="#HandleSaveSlot2" text="New Game" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Button fx:id="slot3" minHeight="50.0" minWidth="200.0" mnemonicParsing="false" onAction="#HandleSaveSlot3" text="New Game" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Button fx:id="leaderboard" minWidth="90.0" mnemonicParsing="false" onAction="#HandleLeaderBoard" text="Leaderboard" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="110.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="logout" minWidth="90.0" mnemonicParsing="false" onAction="#HandleGoBackToLogIn" text="Log Out" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="110.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
