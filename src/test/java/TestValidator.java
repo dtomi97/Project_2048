@@ -21,7 +21,7 @@ public class TestValidator {
 
     @Test
     public void RegisterUsernameIsUniqueTest(){
-        assertFalse(v.regUsernameisUnique("tamas123"), "Username should be unavailable");
+        assertFalse(v.regUsernameisUnique(""), "Username should be unavailable");
         assertTrue(v.regUsernameisUnique("asfasdö13213sda"), "Username should be available");
     }
 

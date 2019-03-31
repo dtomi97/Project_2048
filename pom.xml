@@ -26,8 +26,8 @@
                  It has a user interface and a score board other than the game itself.</description>
 
     <scm>
-        <connection>scm:git:git@github.com:dtomi97/</connection>
-        <url>scm:git:git@github.com:dtomi97/</url>
+        <connection>scm:git:git@github.com:dtomi97/Project_2048</connection>
+        <url>scm:git:git@github.com:dtomi97/Project_2048</url>
         <developerConnection>scm:git:git@github.com:dtomi79</developerConnection>
         <tag>HEAD</tag>
     </scm>
