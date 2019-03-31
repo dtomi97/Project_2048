@@ -7,7 +7,7 @@
         <properties>
             <property name="hibernate.connection.url" value="jdbc:mysql://www.db4free.net:3306/project_2048"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
-            <property name="hibernate.connection.username" value="abc"/>
+            <property name="hibernate.connection.username" value="project_2048"/>
             <property name="hibernate.connection.password" value="abc"/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
