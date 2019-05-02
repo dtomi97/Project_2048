@@ -143,7 +143,7 @@ public class LoginSceneController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 
-        ud = UserDAOFactory.getInstance().createUserDAO();
+        /*ud = UserDAOFactory.getInstance().createUserDAO();*/
 
     }
     /**
