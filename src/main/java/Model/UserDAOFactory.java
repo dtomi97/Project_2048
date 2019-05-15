@@ -37,10 +37,11 @@ public class UserDAOFactory {
      * @return the properties of the database connection
      */
     private static Map<String, String> getProperties() {
-        StrongTextEncryptor textEncryptor = new StrongTextEncryptor();
-        textEncryptor.setPassword("progtech-2019");
+/*        StrongTextEncryptor textEncryptor = new StrongTextEncryptor();
+        textEncryptor.setPassword("progkorny_2048");
         Reader reader = new Reader();
-        String myEncryptedText = textEncryptor.decrypt(reader.getPassword());
+        String myEncryptedText = textEncryptor.decrypt(reader.getPassword());*/
+        String myEncryptedText = "";
         Map<String, String> properties = new HashMap<>();
         properties.put("hibernate.connection.password", myEncryptedText);
         return properties;
